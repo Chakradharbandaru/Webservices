@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetEmployeeController</servlet-name>
+  	<display-name>GetEmployeeController</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.GetEmployeeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetEmployeeController</servlet-name>
+  	<url-pattern>/getOption</url-pattern>
+  </servlet-mapping>
+ 
+  <display-name>Archetype Created Web Application</display-name> 
+  <servlet>
+  	<servlet-name>InsertEmployee</servlet-name>
+  	<display-name>InsertEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.InsertEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertEmployee</servlet-name>
+  	<url-pattern>/getInsEmployee</url-pattern>
+  </servlet-mapping>
+  
+  <display-name>Archetype Created Web Application</display-name> 
+  <servlet>
+  	<servlet-name>UpdateEmployee</servlet-name>
+  	<display-name>UpdateEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.UpdateEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateEmployee</servlet-name>
+  	<url-pattern>/getUpdEmployee</url-pattern>
+  </servlet-mapping>
+  
+    <display-name>Archetype Created Web Application</display-name> 
+  <servlet>
+  	<servlet-name>DeleteEmployee</servlet-name>
+  	<display-name>DeleteEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.DeleteEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteEmployee</servlet-name>
+  	<url-pattern>/delEmployee</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+
+
+
